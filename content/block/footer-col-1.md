@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Emil Folino
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Här kan du hitta min [GitHub](https://github.com/emilfolino) och här är min personliga hemsida [emilfolino.se](https://www.emilfolino.se/).

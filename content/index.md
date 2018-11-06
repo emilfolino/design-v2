@@ -1,5 +1,15 @@
 ---
 title: "Emil Folinos design sida"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            class: "byline"
+            meta:
+                type: single                
+                route: block/byline
 ---
 Me-sida för Emil Folino
 =========================

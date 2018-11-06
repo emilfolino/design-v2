@@ -5,6 +5,52 @@
  * to style up the website so it is useable.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Oswald:200,400');
+
+html {
+    font-size: 100%;
+    font-family: "Merriweather", serif;
+    color: #333;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-family: "Oswald", sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: "Oswald", sans-serif;
+}
+
+h4 {
+    font-size: 1.8em;
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-size: 1.4em;
+    font-family: "Merriweather", serif;
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -13,4 +59,238 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+.region-header-col-1,
+.region-header-col-2 {
+    float: left;
+    font-family: "Oswald", sans-serif;
+}
+
+.site-logo-text {
+    font-size: 2em;
+}
+
+.site-logo-text a {
+    text-decoration: none;
+    color: #333;
+}
+
+.site-logo-text a:hover {
+    text-decoration: underline;
+}
+
+.site-logo-text-icon {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.my-navbar {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline;
+    box-sizing: border-box;
+    padding: 0 1em;
+}
+
+.my-navbar li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.my-navbar li a:hover {
+    text-decoration: underline;
+}
+
+.inner-wrap-flash img {
+    max-width: 100%;
+}
+
+.inner-wrap-main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 65%;
+}
+
+.has-sidebar-right,
+.region-sidebar-left {
+    margin-right: 5%;
+}
+
+
+
+.wrap-sidebar {
+    box-sizing: border-box;
+    padding-top: 3em;
+    width: 30%;
+    float: left;
+    display: inline;
+}
+
+.block {
+    margin-bottom: 3em;
+}
+
+.block h4 {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.block p {
+    margin-top: 3px;
+}
+
+.figure {
+    margin: 0;
+}
+
+figcaption p {
+    margin-top: 1px;
+    color: #999;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.byline {
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.byline img {
+    float: left;
+    margin-right: 1em;
+}
+
+.byline h4 {
+    margin: 0;
+}
+
+.byline:hover {
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.byline::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.outer-wrap-footer {
+    background-image: linear-gradient(#2c3539, #586b73);
+    color: white;
+    font-size: 0.7em;
+    box-sizing: border-box;
+    padding: 2em;
+    margin-top: 4em;
+}
+
+.inner-wrap-footer {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.footer-column {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    padding-bottom: 4em;
+}
+
+.footer-column p a {
+    color: white;
+}
+
+.site-footer p {
+    text-align: center;
+}
+
+ul.toc {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.4em;
+}
+
+ul.toc li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.toc li.section-header {
+    margin-top: 1.4em;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.toc li a:hover {
+    text-decoration: underline;
+}
+
+.next a,
+.previous a {
+    color: #333;
+    text-decoration: none;
+}
+
+.next a:hover,
+.previous a:hover {
+    text-decoration: underline;
+}
+
+.next {
+    float: right;
+}
+
+.inner-wrap-main h4 {
+    margin-bottom: 0;
+}
+
+.inner-wrap-breadcrumb {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.breadcrumb-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.breadcrumb-list ul li {
+    display: inline;
+}
+
+.breadcrumb-list ul li::after {
+    content: "/";
+    padding: 0 1.4em;
+}
+
+.breadcrumb-list ul li:last-child::after {
+    content: "";
+    padding: 0;
+}
+
+.breadcrumb-list ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.breadcrumb-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
