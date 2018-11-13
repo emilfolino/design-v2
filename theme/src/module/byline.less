@@ -1,0 +1,24 @@
+.byline {
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.byline img {
+    float: left;
+    margin-right: 1em;
+}
+
+.byline h4 {
+    margin: 0;
+}
+
+.byline:hover {
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.byline::after {
+    content: "";
+    display: block;
+    clear:both;
+}

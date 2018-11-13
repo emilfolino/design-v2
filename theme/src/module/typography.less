@@ -1,0 +1,55 @@
+/**
+ * Sample of some self contained module. Start by defining the variables that
+ * the user can override and the defined the style.
+ */
+
+/**
+ * Variables
+ */
+
+@bodyFont: "Merriweather", serif;
+@headerFont: "Oswald", sans-serif;
+
+/**
+ * Style
+ */
+body {
+    line-height: 1.4;
+    font-family: @bodyFont;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: @headerFont;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-family: @headerFont;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: @headerFont;
+}
+
+h4 {
+    font-size: 1.8em;
+    font-family: @headerFont;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media (max-width: 50em) {
+    html {
+        font-size: 87.5%;
+    }
+}
