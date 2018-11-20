@@ -1,0 +1,63 @@
+/**
+ * Layout using vgrid
+ */
+
+// Helpers
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+// General layout
+
+.inner-wrap {
+    #desinax-vgrid.grid(64rem);
+}
+
+.inner-wrap-header,
+.inner-wrap-flash {
+    #desinax-vgrid.grid(100%);
+}
+
+.row {
+    #desinax-vgrid.row();
+}
+
+.region-header,
+.region-flash,
+.inner-wrap-header .row,
+.inner-wrap-flash .row {
+    margin: 0;
+    width: 100%;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(24);
+}
+
+.region-main {
+    #desinax-vgrid.column(18);
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(6);
+}
+
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 64rem);
+
+    &.inner-wrap-header,
+    &.inner-wrap-flash {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}

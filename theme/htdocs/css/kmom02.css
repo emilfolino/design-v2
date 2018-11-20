@@ -4829,11 +4829,8 @@ p {
     padding: 0 0.6em 2em;
   }
 }
-.inner-wrap-flash {
-  width: 100%;
-  max-width: 100%;
-}
 .inner-wrap-flash img {
+  max-width: 100%;
   width: 100%;
 }
 .byline {
