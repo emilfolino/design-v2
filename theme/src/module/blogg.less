@@ -1,3 +1,6 @@
+@metaColor: #999;
+
+
 .blog-list-item {
     .clearfix();
 
@@ -11,7 +14,7 @@
     .meta-header,
     .meta-footer {
         float: right;
-        color: #999;
+        color: @metaColor;
         margin: 0;
     }
 
@@ -21,5 +24,37 @@
 
     .readmore {
         margin: 0;
+    }
+}
+
+.blog-post {
+    .meta-header {
+        color: @metaColor;
+    }
+
+    .meta-footer {
+        float: right;
+        color: @metaColor;
+        margin: 0;
+    }
+
+    .figure {
+        margin-bottom: @magicNumber;
+    }
+
+    .figure.left {
+        margin-right: 1em;
+    }
+
+    .figure.right {
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 42rem) {
+    .blog-list-item {
+        .meta-header {
+            display: none;
+        }
     }
 }

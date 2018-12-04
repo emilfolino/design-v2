@@ -65,3 +65,33 @@
         #desinax-vgrid.showGrid(@gridImage);
     }
 }
+
+@media screen and (max-width: 64rem) {
+    .rm-small {
+        display: block;
+    }
+
+    .rm-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 42rem) {
+    .wrap-sidebar {
+        display: none;
+    }
+
+    .region-main.has-sidebar {
+        #desinax-vgrid.column(24);
+    }
+}
+
+
+@media (max-width: 64rem) {
+    .inner-wrap-breadcrumb,
+    .inner-wrap-main,
+    .inner-wrap-footer {
+        #desinax-vgrid.column(22);
+        #desinax-vgrid.push(1);
+    }
+}
