@@ -1,3 +1,3 @@
-#### Nytt och Noterat
+#### Emils bild blogg
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här kommer jag lägga upp dagens bild, verkar dock inte gå nått vidare med tanke på att jag har lagt upp tre bilder de senaste två månaderna. Men snart så... Ska bara...

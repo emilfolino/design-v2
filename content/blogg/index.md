@@ -15,7 +15,7 @@ views:
         sort: 2
         data:
             dateFormat: j F Y
-            meta: 
+            meta:
                 type: toc
                 orderby: publishTime
                 orderorder: desc
@@ -24,13 +24,14 @@ views:
         region: sidebar-right
         template: anax/v2/blog-toc/default
         sort: 2
+        title: Senaste inläggen
         data:
-            meta: 
+            meta:
                 type: copy
                 view: blog-list
 
 ---
-Nytt och Noterat
+Emils bild blogg
 ===========================
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här kommer jag lägga upp dagens bild, verkar dock inte gå nått vidare med tanke på att jag har lagt upp tre bilder de senaste två månaderna. Men snart så... Ska bara...
