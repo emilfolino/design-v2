@@ -23,9 +23,9 @@ views:
     blog-toc:
         region: sidebar-right
         template: anax/v2/blog-toc/default
-        sort: 2
-        title: Senaste inläggen
+        sort: 2        
         data:
+            title: Senaste inläggen
             meta:
                 type: copy
                 view: blog-list

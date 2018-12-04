@@ -5217,7 +5217,25 @@ ul.toc li a:hover {
 .breadcrumb-list ul li a:hover {
   text-decoration: underline;
 }
+.blog-list-item {
+  content: "";
+  display: block;
+  clear: both;
+  margin-bottom: 8em;
+}
 .blog-list-item h1 a {
   color: #333;
   text-decoration: none;
+}
+.blog-list-item .meta-header,
+.blog-list-item .meta-footer {
+  float: right;
+  color: #999;
+  margin: 0;
+}
+.blog-list-item .meta-header {
+  padding-top: 1em;
+}
+.blog-list-item .readmore {
+  margin: 0;
 }
